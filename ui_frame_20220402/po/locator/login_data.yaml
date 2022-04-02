@@ -1,0 +1,20 @@
+username:
+  - id
+  - username
+
+password:
+  - id
+  - password
+
+verifcode:
+  - id
+  - verifycode
+
+# 登陆按钮
+button:
+  - css selector
+  - .form-control:nth-child(1)
+
+logout:
+  - link text
+  - 注销

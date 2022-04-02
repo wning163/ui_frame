@@ -1,0 +1,9 @@
+#会员查询页面-查询按钮
+button_vip:
+  - xpath
+  - //button[@class="form-control btn btn-primary"][3]
+
+# 查询结果第一行
+table_tr:
+  - xpath
+  - //tbody[@id='customerlist']/tr[1]

@@ -1,0 +1,11 @@
+logout:
+  - link text
+  - 注销
+
+vip:
+  - link text
+  - 会员管理
+
+query:
+  - link text
+  - 库存查询

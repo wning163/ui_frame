@@ -1,0 +1,36 @@
+# 零库存查询
+zero_query:
+  - xpath
+  - //input[@class='form-control btn-primary'][1]
+
+
+# 查询结果第一行
+query_result:
+  - xpath
+  - /html/body/div[4]/div[2]/table[1]/tbody/tr[1]
+
+# 货号
+goods:
+  - id
+  - goodsserial
+
+# 品名
+goodsname:
+  - id
+  - goodsname
+
+# 条码
+barcode:
+  - id
+  - barcode
+
+#类别
+goods_type:
+  - id
+  - goodstype
+
+# 条件查询按钮
+button_con:
+  - xpath
+  - //input[@class='form-control btn-primary'][3]
+
